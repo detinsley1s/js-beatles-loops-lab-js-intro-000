@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   let arr = [];
-  facts.foreach((x) => {
+  facts.forEach((x) => {
     arr.push(x + '!!!');
   });
   return arr;
